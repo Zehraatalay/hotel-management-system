@@ -44,8 +44,20 @@ psql -d hotel_management_demo -v ON_ERROR_STOP=1 -f sql/02_queries.sql
 
 See `sql/02_queries.sql` for additional SQL query examples.
 
-## Database diagrams
+## Database Diagrams
 
-![ER diagram](diagrams/er_diagram.jpeg)
+### Entity-Relationship (ER) Diagram
 
-![EER diagram](diagrams/eer_diagram.jpeg)
+The ER diagram illustrates the main entities, attributes,
+relationships, and cardinality constraints of the hotel
+management system.
+
+![ER Diagram](diagrams/er_diagram.png)
+
+### Enhanced Entity-Relationship (EER) Diagram
+
+The EER diagram extends the conceptual model with
+specialization and generalization structures for customers,
+employees, and accommodation spaces.
+
+![EER Diagram](diagrams/eer_diagram.png)
