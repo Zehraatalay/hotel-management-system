@@ -36,8 +36,6 @@ psql -d hotel_management_demo -v ON_ERROR_STOP=1 -f sql/02_queries.sql
 
 **Warning:** The schema script contains `DROP TABLE IF EXISTS ... CASCADE`; do not run it against a database containing data you need to keep.
 
-These scripts have been organized for publication but have **not yet been verified by an end-to-end PostgreSQL execution** in this repository.
-
 ## Example analytics
 
 - Guest reservation summary: `v_guest_reservation_summary`
